@@ -1,4 +1,4 @@
-### Paybrush
+# Paybrush
 
 Here are the detailed instructions for a user to download the `paybrush.py` setup script from GitHub, run the script, and then deploy the generated script to Google Cloud Platform (GCP) from their terminal.
 
