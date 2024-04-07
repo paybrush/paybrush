@@ -24,9 +24,9 @@ This guide provides a comprehensive overview of setting up and deploying your Pa
 ### Step 4: Deploying to Google Cloud Platform
 - **Navigate to the Generated Script**: Find the newly created `main.py` in the same directory.
 - **Initialize Google Cloud SDK**: Run `gcloud init` to start the SDK if not already done. This process includes logging in and selecting or creating a GCP project.
-- **Deploy to Cloud Functions**: Use the command below, replacing `<function_name>` with your chosen name for the cloud function.
+- **Deploy to Cloud Functions**:
     ```bash
-    gcloud functions deploy <function_name> --runtime python39 --trigger-http --entry-point app --source .
+    gcloud functions deploy my_paybrush --runtime python39 --trigger-http --entry-point app --source .
     ```
     Be mindful of securing your function, especially for production environments.
 
