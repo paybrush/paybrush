@@ -2,18 +2,18 @@
 
 This guide outlines deploying your customized Paybrush solution on GCP, from receiving the script via email to deployment and testing.
 
-Step 1: Preparing Your Environment
+### Step 1: Preparing Your Environment
 1. Install Node.js: Ensure Node.js is installed on your system. You can download it from nodejs.org.
 2. Install Google Cloud SDK: Install the Google Cloud SDK from cloud.google.com/sdk to deploy the application to GCP. To run with Homebrew:
    ```
    brew install --cask google-cloud-sdk
    ```
 
-Step 2: Receiving and Saving the Script
+### Step 2: Receiving and Saving the Script
 1. Receive paybrush.js Via Email: Check your email for a message from Paybrush containing the `paybrush.js` setup script as an attachment.
 2. Save the Script: Download the attachment and save it to a directory on your computer where you wish to work with the script.
 
-Step 3: Running the Setup Script
+### Step 3: Running the Setup Script
 1. Open Your Terminal: Navigate to the directory where you saved `paybrush.js`.
    ```
    cd path_to_saved_script
@@ -24,7 +24,7 @@ Step 3: Running the Setup Script
    ```
 3. Enter Required Information: When prompted, enter your email address, email password, company name, Google Cloud Storage bucket name, and the name of the ZIP file stored in GCS.
 
-Step 4: Deploying to Google Cloud Platform
+### Step 4: Deploying to Google Cloud Platform
 1. Navigate to the Generated Script: The setup script generates a new JavaScript file named `paybrush.js` in the same directory.
 2. Initialize Google Cloud SDK: If you haven't already done so, initialize the Google Cloud SDK by running:
    ```
