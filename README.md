@@ -74,7 +74,7 @@ After finalizing your `function.js` script, you're ready to deploy it to Google 
   ```
 - This command deploys your function named `paypalListener` with Node.js 16 as the runtime. The `--trigger-http` flag specifies that the function will be triggered by HTTP requests, and `--allow-unauthenticated` allows it to be invoked without authentication (note: consider your authentication requirements for production use).
 
-### Testing Your Cloud Function
+## Testing Your Cloud Function
 
 After deployment, you can simulate a PayPal IPN message to your function to test its behavior. Use `curl` to send a POST request mimicking a PayPal payment notification:
 
