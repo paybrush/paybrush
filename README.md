@@ -38,6 +38,7 @@ Welcome to the quick setup guide for deploying your Paybrush solution. Save your
     ```
     gcloud init           
     ```
+    Replace yourgcpprojectname with your gcp project name
     ```
     gcloud config set project yourgcpprojectname           
     ```
