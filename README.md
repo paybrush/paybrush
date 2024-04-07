@@ -54,4 +54,4 @@ Here are the detailed instructions for a user to download the `paybrush.py` setu
 - For security reasons, avoid hardcoding sensitive information like email passwords directly into the script. Use GCP's Secret Manager or environment variables configured through the Cloud Console.
 - Regularly update your dependencies and review your Cloud Function's logs for any unexpected errors or security issues.
 
-This guide provides a comprehensive overview of deploying a customized PayBrush application to GCP, starting from downloading the script from GitHub, running the setup script, and finally deploying the customized application to Google Cloud Functions.
+This guide provides a comprehensive overview of deploying a customized Paybrush application to GCP, starting from downloading the script from GitHub, running the setup script, and finally deploying the customized application to Google Cloud Functions.
