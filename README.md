@@ -4,7 +4,10 @@ Welcome to the quick setup guide for deploying your Paybrush solution on GCP, re
 
 #### **1. Environment Setup**
 - **Node.js**: Install from [nodejs.org](https://nodejs.org/).
-- **Google Cloud SDK**: Install from [cloud.google.com/sdk](https://cloud.google.com/sdk). Homebrew command: `brew install --cask google-cloud-sdk`.
+- **Google Cloud SDK**: Install from [cloud.google.com/sdk](https://cloud.google.com/sdk). Homebrew command:
+  ```
+  brew install --cask google-cloud-sdk
+  ```
 
 #### **2. Gmail OAuth2 Authentication Setup**
 - **Google Cloud Console**:
