@@ -57,9 +57,7 @@ This guide details the process of deploying your customized Paybrush solution on
 
 ### **Step 4: Running the Setup Script**
 - **Navigate to Script Directory:** Open a terminal and change to the directory where you saved `paybrush.js`.
-  ```sh
-  cd path_to_saved_script
-  ```
+  `cd path_to_saved_script`
 - **Execute `paybrush.js`:** Run the setup script using Node.js. This script will prompt for inputs required to customize the application.
   ```sh
   node paybrush.js
