@@ -14,9 +14,6 @@ This guide provides a comprehensive overview of setting up and deploying your Pa
 
 ### Step 3: Running the Setup Script
 - **Open Terminal**: Go to the directory where `paybrush.py` is saved.
-    ```bash
-    cd path_to_saved_script
-    ```
 - **Run the `paybrush.py` Script**: Execute the script using Python. It will request information to customize your setup.
     ```bash
     python paybrush.py
