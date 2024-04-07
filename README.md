@@ -10,7 +10,7 @@ Here are the detailed instructions for a user to download the `paybrush.py` setu
 
 ### Step 2: Downloading the Script from GitHub
 
-1. **Clone the GitHub Repository**: Open your terminal and clone the repository containing `paybrush.py` using Git. Replace `your_repository_url` with the actual URL of your GitHub repository:
+1. **Clone the GitHub Repository**: Open your terminal and clone the repository containing `paybrush.py` using Git. Enter the following command in your terminal:
    ```bash
    git clone https://github.com/paybrush/paybrush.git
    ```
