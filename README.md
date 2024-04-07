@@ -23,7 +23,7 @@ Welcome to the quick setup guide for deploying your Paybrush solution on GCP, re
 - **Bucket Creation**:
   - In Cloud Storage, create a bucket, noting its name.
 - **Zip File Upload**:
-  - Upload your .zip file to the bucket, noting the file name.
+  - Upload your .zip file to the bucket, noting the file name (Including .zip).
 
 #### **4. Script Setup**
 - **Receive and Save Script**:
