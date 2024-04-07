@@ -1,6 +1,6 @@
 # Paybrush
 
-Welcome to the quick setup guide for deploying your Paybrush solution on GCP, requiring you to save your "Client ID", "Client Secret", and "Refresh Token". This straightforward process is designed to get you up and running in approximately 30 minutes 🙂
+Welcome to the quick setup guide for deploying your Paybrush solution on GCP, requiring you to save your **Client ID**, **Client Secret**, and **Refresh Token**. This straightforward process is designed to get you up and running in approximately 30 minutes 🙂
 
 #### **1. Environment Setup**
 - **Node.js**: Install from [nodejs.org](https://nodejs.org/).
