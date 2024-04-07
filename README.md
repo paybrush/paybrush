@@ -25,6 +25,7 @@ This guide details the process of deploying your customized Paybrush solution on
 **OAuth 2.0 Playground for Tokens:**
 1. **Authorize APIs:**
    - Visit the [OAuth 2.0 Playground](https://developers.google.com/oauthplayground).
+   - Click the gear icon (⚙️) in the top right corner, check the box for "Use your own OAuth credentials", and enter your copied Client ID and Client Secret from earlier.
    - Input `https://mail.google.com/` in "Input your own scopes" and click "Authorize APIs".
 
 2. **Exchange Authorization Code for Tokens:**
