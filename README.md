@@ -30,13 +30,29 @@ This guide details the process of deploying your customized Paybrush solution on
 
 2. **Exchange Authorization Code for Tokens:**
    - After authorization, click "Exchange authorization code for tokens" in Step 2 of the Playground.
-   - Copy the "Refresh Token". You will also use this later to customize your script.
+   - Copy the "Refresh Token". You will use this later to customize your script.
 
 **Integration:**
 - Use the "Refresh Token" along with your "Client ID" and "Client Secret" in your application for authenticating email requests with Nodemailer.
 
 **Note:**
 - Securely store the "Client Secret" and "Refresh Token" as they provide access to your Google account.
+
+**Uploading a Zip File to Google Cloud Storage**
+
+1. **Create a Cloud Storage Bucket:**
+   - Navigate to the Cloud Storage section in the Google Cloud Console.
+   - Click on "Create Bucket."
+   - Enter the bucket name, choose a location, and configure other settings as needed.
+   - Click "Create" to create the bucket.
+   - Copy the bucket name. You will use this later to customize your script.
+
+2. **Upload Zip File to Bucket:**
+   - Select the bucket you just created.
+   - Click on the "Upload files" button.
+   - Choose the zip file from your local system and upload it to the bucket.
+   - Once uploaded, the zip file will be available in your Cloud Storage bucket.
+   - Copy the zip file name (Including .zip). You will use this later to customize your script.
 
 ### **Step 3: Receiving and Saving the Script**
 - **Receive `paybrush.js` Via Email:** Look for an email from Paybrush with the `paybrush.js` setup script.
