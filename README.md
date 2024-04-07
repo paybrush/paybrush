@@ -4,7 +4,7 @@ This guide outlines deploying your customized Paybrush solution on GCP, from rec
 
 ### Step 1: Preparing Your Environment
 
-1. **Install Node.js**: Ensure Node.js is installed on your system. You can download it from nodejs.org.
+1. **Install Node.js**: Ensure Node.js is installed on your system. You can download it from [nodejs.org](nodejs.org).
 
 2. **Install Google Cloud SDK**: Install the Google Cloud SDK from cloud.google.com/sdk to deploy the application to GCP. To run with Homebrew:
    ```
