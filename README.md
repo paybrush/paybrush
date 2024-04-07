@@ -35,9 +35,6 @@ This guide details the process of deploying your customized Paybrush solution on
 **Integration:**
 - Use the "Refresh Token" along with your "Client ID" and "Client Secret" in your application for authenticating email requests with Nodemailer.
 
-**Note:**
-- Securely store the "Client Secret" and "Refresh Token" as they provide access to your Google account.
-
 **Uploading a Zip File to Google Cloud Storage**
 
 1. **Create a Cloud Storage Bucket:**
