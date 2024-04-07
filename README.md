@@ -17,7 +17,7 @@ Welcome to the quick setup guide for deploying your Paybrush solution. Save your
   - Note your "Client ID" and "Client Secret".
 - **OAuth 2.0 Playground**:
   - Visit [OAuth 2.0 Playground](https://developers.google.com/oauthplayground), click the gear icon ⚙️, check "Use your own OAuth credentials", input your credentials.
-  - Authorize with `https://mail.google.com/` scope, exchange the authorization code for tokens, and note the "Refresh Token".
+  - Authorize with `https://mail.google.com/` scope, exchange the authorization code for tokens, and note the "Refresh Token". If "Google hasn’t verified this app", then click "Advanced" > "Go to <yourappname>".
 
 #### **3. Cloud Storage Setup**
 - **Bucket Creation**:
