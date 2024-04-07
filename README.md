@@ -29,7 +29,7 @@ This guide outlines deploying your customized Paybrush solution on GCP, from rec
    node paybrush.js
    ```
 
-3. **Enter Required Information**: When prompted, enter your email address, email password, company name, Google Cloud Storage bucket name, and the name of the ZIP file stored in GCS.
+3. **Enter Required Information**: When prompted, enter your email address, email password, company name, Google Cloud Storage bucket name, and the name of the ZIP file stored in Google Cloud Storage (GCS).
 
 ### Step 4: Deploying to Google Cloud Platform
 
