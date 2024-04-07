@@ -54,7 +54,7 @@ Welcome to the quick setup guide for deploying your Paybrush solution. Save your
 
 #### **6. Testing**
 - **Simulate PayPal IPN**:
-  - Test the function with `curl`, adjusting the URL and email payload as needed:
+  - Test the function with `curl`. Read the output after deploying under `httpsTrigger` > `url`. Adjust the URL and email payload as needed for this command:
     ```
     curl -X POST https://us-central1-your-project-id.cloudfunctions.net/paypalListener -H "Content-Type: application/json" -d '{"payer_email": "youremail@example.com"}'
     ```
