@@ -19,7 +19,7 @@ This guide provides a comprehensive overview of setting up and deploying your Pa
     python paybrush.py
     ```
     Alternatively, use `python3 paybrush.py` if your system requires specifying Python 3 explicitly.
-- **Enter Required Information**: Input your email address, email password, company name, Google Cloud Storage bucket name, and the ZIP file's name in Google Cloud Storage as prompted.
+- **Enter Required Information**: Input your email address, email password, company name, Google Cloud Storage bucket name, and the ZIP file's name in Google Cloud Storage (GCS) as prompted.
 
 ### Step 4: Deploying to Google Cloud Platform
 - **Navigate to the Generated Script**: Find the newly created `main.py` in the same directory.
