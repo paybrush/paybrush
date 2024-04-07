@@ -16,7 +16,7 @@ Here are the detailed instructions for a user to download the `paybrush.py` setu
    ```
 2. **Navigate to the Repository Directory**: Change into the directory that contains the cloned repository:
    ```bash
-   cd path_to_cloned_repository
+   cd paybrush
    ```
 
 ### Step 3: Running the Setup Script
