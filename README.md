@@ -25,7 +25,7 @@ This guide details the process of deploying your customized Paybrush solution on
 **OAuth 2.0 Playground for Tokens:**
 1. **Authorize APIs:**
    - Visit the [OAuth 2.0 Playground](https://developers.google.com/oauthplayground).
-   - Click the gear icon (⚙️) in the top right corner, check the box for "Use your own OAuth credentials", and enter your copied Client ID and Client Secret from earlier.
+   - Click the gear icon ⚙️ in the top right corner, check the box for "Use your own OAuth credentials", and enter your copied Client ID and Client Secret from earlier.
    - Input `https://mail.google.com/` in "Input your own scopes" and click "Authorize APIs".
 
 2. **Exchange Authorization Code for Tokens:**
@@ -53,14 +53,39 @@ This guide details the process of deploying your customized Paybrush solution on
   ```
 - **Enter Required Information:** Input your Gmail address, OAuth2 credentials (Client ID, Client Secret, Refresh Token), company name, Google Cloud Storage bucket name, and ZIP file name.
 
-### **Step 5: Deploying to Google Cloud Platform**
-- **Access Generated Script:** `paybrush.js` creates a new JavaScript file, `function.js`, in the same directory.
-- **Initialize Google Cloud SDK:** If not already done, initialize the SDK:
+### Step 5: Deploying to Google Cloud Platform
+
+After finalizing your `function.js` script, you're ready to deploy it to Google Cloud Platform as a Cloud Function. This allows your code to be triggered via HTTP requests, such as those you might simulate from PayPal for testing or real transactions.
+
+**Access Generated Script**:
+- `paybrush.js` creates a new JavaScript file, `function.js`, in the same directory.
+
+**Initialize Google Cloud SDK**:
+- If not already done, initialize the SDK by opening your terminal and running:
   ```sh
   gcloud init
   ```
-- **Deploy to Cloud Run:** Use the Google Cloud CLI to deploy the generated script. Note: Deployment steps may vary based on the specifics of your project and the authentication method chosen for Google Cloud Run.
-- **Verify Deployment:** Access the URL provided by GCP to ensure the service is operational.
+- Follow the prompts to authenticate and select your Google Cloud project.
+
+**Deploy Your Function**:
+- Deploy your function to Google Cloud Functions using the Google Cloud CLI with the following command. Ensure you're in the directory containing your `function.js` file.
+  ```sh
+  gcloud functions deploy paypalListener --runtime nodejs16 --trigger-http --allow-unauthenticated --entry-point paypalListener --source .
+  ```
+- This command deploys your function named `paypalListener` with Node.js 16 as the runtime. The `--trigger-http` flag specifies that the function will be triggered by HTTP requests, and `--allow-unauthenticated` allows it to be invoked without authentication (note: consider your authentication requirements for production use).
+
+### Testing Your Cloud Function
+
+After deployment, you can simulate a PayPal IPN message to your function to test its behavior. Use `curl` to send a POST request mimicking a PayPal payment notification:
+
+```sh
+curl -X POST https://us-central1-your-project-id.cloudfunctions.net/paypalListener \
+-H "Content-Type: application/json" \
+-d '{"payer_email": "youremail@example.com"}'
+```
+
+- Replace `https://us-central1-your-project-id.cloudfunctions.net/paypalListener` with the actual URL provided after deploying your Cloud Function.
+- Modify the JSON payload (`-d` option) as needed to simulate different IPN messages from PayPal.
 
 #### **Additional Notes**
 - **Secure Configuration:** Use GCP's Secret Manager or environment variables to manage sensitive information securely.
