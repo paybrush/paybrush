@@ -5,7 +5,10 @@ This guide outlines deploying your customized Paybrush solution on GCP, from rec
 ### Step 1: Preparing Your Environment
 
 1. **Install Python**: Ensure Python is installed on your system. You can download it from [python.org](https://www.python.org/).
-2. **Install Google Cloud SDK**: Install the Google Cloud SDK from [cloud.google.com/sdk](https://cloud.google.com/sdk) to deploy the application to GCP.
+2. **Install Google Cloud SDK**: Install the Google Cloud SDK from [cloud.google.com/sdk](https://cloud.google.com/sdk) to deploy the application to GCP. Here is the homebrew command:
+  ```bash
+  brew install --cask google-cloud-sdk
+  ```
 
 ### Step 2: Receiving and Saving the Script
 
@@ -21,6 +24,10 @@ This guide outlines deploying your customized Paybrush solution on GCP, from rec
 2. **Run the `paybrush.py` Script**: Execute the setup script using Python. This script will prompt you for various inputs required to customize the application.
    ```bash
    python paybrush.py
+   ```
+   or
+   ```bash
+   python3 paybrush.py
    ```
 3. **Enter Required Information**: When prompted, enter your email address, email password, company name, Google Cloud Storage bucket name, and the name of the ZIP file stored in GCS.
 
