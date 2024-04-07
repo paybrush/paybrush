@@ -53,7 +53,7 @@ This guide details the process of deploying your customized Paybrush solution on
 - **Enter Required Information:** Input your Gmail address, OAuth2 credentials (Client ID, Client Secret, Refresh Token), company name, Google Cloud Storage bucket name, and ZIP file name.
 
 ### **Step 5: Deploying to Google Cloud Platform**
-- **Access Generated Script:** `paybrush.js` creates a new JavaScript file, `my_paybrush.js`, in the same directory.
+- **Access Generated Script:** `paybrush.js` creates a new JavaScript file, `function.js`, in the same directory.
 - **Initialize Google Cloud SDK:** If not already done, initialize the SDK:
   ```sh
   gcloud init
