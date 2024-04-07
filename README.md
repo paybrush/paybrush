@@ -34,7 +34,7 @@ Welcome to the quick setup guide for deploying your Paybrush solution. Save your
 
 #### **5. Deployment**
 - **Deploy Function**:
-  - Use this command in the terminal within your script's directory:
+  - Use these commands in the terminal within your script's directory:
     ```
     gcloud init           
     ```
