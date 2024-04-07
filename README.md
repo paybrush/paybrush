@@ -26,10 +26,11 @@ This guide outlines deploying your customized Paybrush solution on GCP, from rec
    python paybrush.py
    ```
    or
+   
    ```bash
    python3 paybrush.py
    ```
-3. **Enter Required Information**: When prompted, enter your email address, email password, company name, Google Cloud Storage bucket name, and the name of the ZIP file stored in GCS.
+4. **Enter Required Information**: When prompted, enter your email address, email password, company name, Google Cloud Storage bucket name, and the name of the ZIP file stored in GCS.
 
 ### Step 4: Deploying to Google Cloud Platform
 
