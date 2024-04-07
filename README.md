@@ -6,7 +6,7 @@ This guide provides a comprehensive overview of setting up and deploying your Pa
 - **Install Python**: Confirm Python is installed on your system. Download it at [python.org](https://www.python.org/).
 - **Install Google Cloud SDK**: For deploying applications to GCP, install the Google Cloud SDK from [cloud.google.com/sdk](https://cloud.google.com/sdk). If using Homebrew, run:
     ```bash
-    brew install --cask google-cloud-sdk`.
+    brew install --cask google-cloud-sdk
     ```
 ### Step 2: Receiving and Saving the Script
 - **Receive `paybrush.py` Via Email**: Look for an email from Paybrush with the `paybrush.py` setup script attached.
