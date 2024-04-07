@@ -20,7 +20,7 @@ This guide details the process of deploying your customized Paybrush solution on
    - In "APIs & Services" > "Credentials", click "Create Credentials" > "OAuth client ID".
    - Select "Web application" and set up the consent screen with the required information.
    - Under "Authorized redirect URIs", add `https://developers.google.com/oauthplayground` for testing.
-   - Note your "Client ID" and "Client Secret".
+   - Copy your "Client ID" and "Client Secret". You will use this later to customize your script.
 
 **OAuth 2.0 Playground for Tokens:**
 1. **Authorize APIs:**
@@ -29,7 +29,7 @@ This guide details the process of deploying your customized Paybrush solution on
 
 2. **Exchange Authorization Code for Tokens:**
    - After authorization, click "Exchange authorization code for tokens" in Step 2 of the Playground.
-   - Copy the "Refresh Token" and "Access Token" (optional).
+   - Copy the "Refresh Token". You will also use this later to customize your script.
 
 **Integration:**
 - Use the "Refresh Token" along with your "Client ID" and "Client Secret" in your application for authenticating email requests with Nodemailer.
