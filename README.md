@@ -36,6 +36,12 @@ Welcome to the quick setup guide for deploying your Paybrush solution. Save your
 - **Deploy Function**:
   - Use this command in the terminal within your script's directory:
     ```
+    gcloud init           
+    ```
+    ```
+    gcloud config set project yourgcpprojectname           
+    ```
+    ```
     gcloud functions deploy paypalListener --runtime nodejs16 --trigger-http --allow-unauthenticated --entry-point paypalListener --source .
     ```
 
