@@ -13,7 +13,7 @@ Welcome to the quick setup guide for deploying your Paybrush solution. Save your
 - **Google Cloud Console**:
   - Open [Google Cloud Console](https://console.cloud.google.com/), select/create a project, enable the Gmail API under "APIs & Services" > "Library".
 - **OAuth 2.0 Credentials**:
-  - Under "APIs & Services" > "Credentials", click "Create Credentials" > "OAuth client ID" for a web application, adding `https://developers.google.com/oauthplayground` under "Authorized redirect URIs".
+  - Under "APIs & Services" > "Credentials", click "Create Credentials" > "OAuth client ID". If needed, "Configure Consent Screen" > "External". Enter app name and email then save and continue until complete. Return to "Credentials", click "Create Credentials" > "OAuth client ID", for a web application, adding `https://developers.google.com/oauthplayground` under "Authorized redirect URIs".
   - Note your "Client ID" and "Client Secret".
 - **OAuth 2.0 Playground**:
   - Visit [OAuth 2.0 Playground](https://developers.google.com/oauthplayground), click the gear icon ⚙️, check "Use your own OAuth credentials", input your credentials.
