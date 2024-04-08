@@ -1,5 +1,5 @@
 # Paybrush 
-### Visit [paybru.sh](https://paybru.sh/)
+### Visit our website [paybru.sh](https://paybru.sh/)
 
 Welcome to the quick setup guide for deploying your Paybrush solution. Save your **Client ID**, **Client Secret**, and **Refresh Token** along the way. This straightforward process is designed to get you up and running in about 30 minutes 🙂
 
