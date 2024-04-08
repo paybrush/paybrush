@@ -64,4 +64,7 @@ Welcome to the quick setup guide for deploying your Paybrush solution. Save your
     curl -X POST https://us-central1-your-project-id.cloudfunctions.net/paypalListener -H "Content-Type: application/json" -d '{"payer_email": "youremail@example.com"}'
     ```
 
-If you have any questions or need support, please visit our website at [paybru.sh](https://paybru.sh/).
+
+If you have any questions or need support, you can find our contacts at [paybru.sh](https://paybru.sh/).
+
+© 2024 Paybrush
