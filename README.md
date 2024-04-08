@@ -21,11 +21,15 @@ Welcome to the quick setup guide for deploying your Paybrush solution. Save your
   - **Note**: While authorizing, if "Google hasn’t verified this app", then click "Advanced" > "Go to APP_NAME" > "Continue".
   - ☑️ Auto-refresh the token
 
-#### **3. Cloud Storage Setup**
-- **Bucket Creation**:
-  - In Cloud Storage, create a bucket, noting its name.
-- **Zip File Upload**:
-  - Upload your .zip file to the bucket, noting the file name (Including .zip).
+#### **3. Google Drive Share Link Setup**:
+
+- **Google Drive File Preparation**:
+  - Upload the files or folder containing the purchased content to your Google Drive.
+  - Right-click the file or folder, select "Get link," then choose "Anyone with the link" under General access.
+
+- **Share Link Generation**:
+  - Once the access level is set to "Anyone with the link," copy the shareable link provided by Google Drive.
+  - Note this link; you will use it later to customize your script to automatically send it to customers after their purchase.
 
 #### **4. Script Setup**
 - **Receive and Save Script**:
