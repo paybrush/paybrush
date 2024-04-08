@@ -8,7 +8,6 @@ Welcome to the quick setup guide for deploying your Paybrush solution. Save your
   ```
   brew install --cask google-cloud-sdk
   ```
-
 #### **2. Gmail OAuth2 Authentication Setup**
 - **Google Cloud Console**:
   - Open [Google Cloud Console](https://console.cloud.google.com/), select/create a project, enable the Gmail API under "APIs & Services" > "Library".
@@ -56,7 +55,6 @@ Welcome to the quick setup guide for deploying your Paybrush solution. Save your
     ```
     gcloud functions deploy paypalListener --runtime nodejs16 --trigger-http --allow-unauthenticated --entry-point paypalListener --source .
     ```
-
 #### **6. Testing**
 - **Simulate PayPal IPN**:
   - Test the function with `curl`. Read the output after deploying under "httpsTrigger" > "url". Adjust the URL after POST and the email payload as needed for this command:
