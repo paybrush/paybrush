@@ -29,7 +29,7 @@ Welcome to the quick setup guide for deploying your Paybrush solution. Save your
 
 - **Share Link Generation**:
   - Once the access level is set to "Anyone with the link," copy the shareable link provided by Google Drive.
-  - Note this link; you will use it later to customize your script to automatically send it to customers after their purchase.
+  - Note this link. You will use it later to customize your script to automatically send it to customers after their purchase.
 
 #### **4. Script Setup**
 - **Receive and Save Script**:
