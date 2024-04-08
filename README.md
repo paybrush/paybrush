@@ -1,5 +1,4 @@
 # Paybrush 
-### Visit our website [paybru.sh](https://paybru.sh/)
 
 Welcome to the quick setup guide for deploying your Paybrush solution. Save your **Client ID**, **Client Secret**, and **Refresh Token** along the way. This straightforward process is designed to get you up and running in about 30 minutes 🙂
 
@@ -64,3 +63,5 @@ Welcome to the quick setup guide for deploying your Paybrush solution. Save your
     ```
     curl -X POST https://us-central1-your-project-id.cloudfunctions.net/paypalListener -H "Content-Type: application/json" -d '{"payer_email": "youremail@example.com"}'
     ```
+
+If you have any questions or need support, please visit our website at [paybru.sh](https://paybru.sh/).
