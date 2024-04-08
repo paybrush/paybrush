@@ -24,7 +24,7 @@ Welcome to the quick setup guide for deploying your Paybrush solution. Save your
 #### **3. Google Drive Share Link Setup**
 
 - **Google Drive File Preparation**:
-  - Upload the files or folder containing the purchased content to your Google Drive.
+  - Upload the files or folder containing your digital product to your Google Drive.
   - Right-click the file or folder, select "Get link," then choose "Anyone with the link" under General access.
 
 - **Share Link Generation**:
