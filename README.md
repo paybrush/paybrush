@@ -33,7 +33,7 @@ Welcome to the quick setup guide for deploying your Paybrush solution. Save your
 
 #### **4. Script Setup**
 - **Receive and Save Script**:
-  - Download `paybrush.js` from your email and save it to a directory.
+  - Download `Paybrush.zip` from the link in your email and unzip the file.
 - **Run Script**:
   - Open a terminal, navigate to the script directory, and execute `node paybrush.js`. Input required information when prompted.
 
