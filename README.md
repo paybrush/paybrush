@@ -21,7 +21,7 @@ Welcome to the quick setup guide for deploying your Paybrush solution. Save your
   - **Note**: While authorizing, if "Google hasn’t verified this app", then click "Advanced" > "Go to APP_NAME" > "Continue".
   - ☑️ Auto-refresh the token
 
-#### **3. Google Drive Share Link Setup**:
+#### **3. Google Drive Share Link Setup**
 
 - **Google Drive File Preparation**:
   - Upload the files or folder containing the purchased content to your Google Drive.
