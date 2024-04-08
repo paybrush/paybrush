@@ -53,6 +53,7 @@ Welcome to the quick setup guide for deploying your Paybrush solution. Save your
     --member="serviceAccount:PROJECT_ID@appspot.gserviceaccount.com" \
     --role="roles/artifactregistry.reader"
     ```
+    Deploy your cloud function:
     ```
     gcloud functions deploy paypalListener --runtime nodejs16 --trigger-http --allow-unauthenticated --entry-point paypalListener --source .
     ```
