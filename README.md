@@ -43,11 +43,11 @@ Welcome to the quick setup guide for deploying your Paybrush solution. Save your
     ```
     gcloud init           
     ```
-    Replace PROJECT_ID with your project ID:
+    Replace PROJECT_ID with your Google Cloud project ID:
     ```
     gcloud config set project PROJECT_ID           
     ```
-    Replace PROJECT_ID with your project ID:
+    Replace PROJECT_ID with your Google Cloud project ID:
     ```
     gcloud projects add-iam-policy-binding PROJECT_ID \
     --member="serviceAccount:PROJECT_ID@appspot.gserviceaccount.com" \
