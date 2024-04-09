@@ -45,16 +45,17 @@ Welcome to the quick setup guide for deploying your Paybrush solution. Save your
     ```
     gcloud config set project PROJECT_ID           
     ```
-    Replace PROJECT_ID with your Google Cloud project ID:
+    Deploy your cloud function:
+    ```
+    gcloud functions deploy paypalListener --runtime nodejs16 --trigger-http --allow-unauthenticated --entry-point paypalListener --source .
+    ```
+    If there is a permissions error, run this command and redeploy again after. Replace PROJECT_ID with your Google Cloud project ID:
     ```
     gcloud projects add-iam-policy-binding PROJECT_ID \
     --member="serviceAccount:PROJECT_ID@appspot.gserviceaccount.com" \
     --role="roles/artifactregistry.reader"
     ```
-    Deploy your cloud function:
-    ```
-    gcloud functions deploy paypalListener --runtime nodejs16 --trigger-http --allow-unauthenticated --entry-point paypalListener --source .
-    ```
+    
 #### **6. Testing**
 - **Simulate PayPal IPN**:
   - Test the function with `curl`. Read the output after deploying under "httpsTrigger" > "url". Adjust the URL after POST and the email payload as needed for this command:
