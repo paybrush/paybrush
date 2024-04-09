@@ -67,6 +67,7 @@ Welcome to the quick setup guide for deploying your Paybrush solution. Save your
 - **Configure IPN in PayPal**:
   - For detailed PayPal IPN setup, visit: [What is Instant Payment Notification or IPN?](https://www.paypal.com/us/cshelp/article/what-is-instant-payment-notification-or-ipn-help188).
   - Paste your function's Trigger URL into the "Notification URL" field.
+  - Congratulations, your setup is now complete.
 
 If you have any questions or need support, you can find our contacts at [paybru.sh](https://paybru.sh/).
 
