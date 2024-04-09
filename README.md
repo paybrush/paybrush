@@ -62,6 +62,11 @@ Welcome to the quick setup guide for deploying your Paybrush solution. Save your
     curl -X POST https://us-central1-your-project-id.cloudfunctions.net/paypalListener -H "Content-Type: application/json" -d '{"payer_email": "youremail@example.com"}'
     ```
 
+#### **7: Setup PayPal IPN**:
+- **Get Cloud Function URL**: In Google Cloud Console, under Cloud Functions, find your function `paypalListener` and copy its Trigger URL.
+- **Configure IPN in PayPal**:
+  - For detailed PayPal IPN setup, visit: [What is Instant Payment Notification or IPN?](https://www.paypal.com/us/cshelp/article/what-is-instant-payment-notification-or-ipn-help188).
+  - Paste your function's Trigger URL into the "Notification URL" field.
 
 If you have any questions or need support, you can find our contacts at [paybru.sh](https://paybru.sh/).
 
