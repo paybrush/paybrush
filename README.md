@@ -49,7 +49,7 @@ Welcome to the quick setup guide for deploying your Paybrush solution. Save your
     ```
     gcloud functions deploy paypalListener --runtime nodejs16 --trigger-http --allow-unauthenticated --entry-point paypalListener --source .
     ```
-    If there is a permissions error, run this command and redeploy again after. Replace PROJECT_ID with your Google Cloud project ID:
+    If there is a permissions **error**, run this command and redeploy again after. Replace PROJECT_ID with your Google Cloud project ID:
     ```
     gcloud projects add-iam-policy-binding PROJECT_ID \
     --member="serviceAccount:PROJECT_ID@appspot.gserviceaccount.com" \
